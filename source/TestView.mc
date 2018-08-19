@@ -15,7 +15,7 @@ class TestView extends Ui.View {
     	Ui.requestUpdate();    	
     }
     
-    var mHeartRateActivity;
+    private var mHeartRateActivity;
 
     // Load your resources here
     function onLayout(dc) {
