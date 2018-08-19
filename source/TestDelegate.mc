@@ -1,8 +1,7 @@
-using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
 
-class TestDelegate extends WatchUi.BehaviorDelegate {
+class TestDelegate extends Ui.BehaviorDelegate {
     function initialize() {
-        BehaviorDelegate.initialize();        
-    	var heartRateActivity = new HeartBeatIntervalsTracking();
+        BehaviorDelegate.initialize();	
     }
 }
